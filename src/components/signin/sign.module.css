@@ -1,0 +1,137 @@
+#SignInBlock{
+    width: 450px;
+    height: 660px;
+    background: #000000b0;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 999;
+    flex-direction: column;
+    align-items: center;
+}
+#InputSign{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 375px;
+    width: 335px;
+}
+#InputInfo{
+    height: 200px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+#text{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    position: relative;
+    top: 20px;
+    left: 8px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+ .teste {
+    color: 'green',
+  }
+#buttonOn{
+    height: 50px;
+    width: 314px;
+    background: red;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 11px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 315px;
+    height: 18px;
+}
+#textRemenber{
+    color: #8c8c8c;
+    display: flex;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    
+}
+#textHelp{
+    color: #8c8c8c;
+    display: flex;
+    position: relative;
+    display: flex;
+    left: 31px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+#box{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+#checkbox{
+    position: relative;
+    display: flex;
+    right: 4px;
+    color: #8c8c8c;
+}
+#help{
+    width: 50%;
+}
+#fbconect{
+    width: 314px;
+    height: 36px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#buyassin{
+    width: 314px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+}
+#protectpage{
+    width: 314px;
+    height: 141px;
+}
+#imgFace{
+    margin: 2px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 4px;
+}
+#textConect{
+    color: #8c8c8c;
+    display: flex;
+    font-family: nf-icon;
+}
+.textBuy{
+    color: #8c8c8c;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#protect{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #8c8c8c;
+    display: flex;
+    font-size: 12px;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+
+}
