@@ -30,7 +30,9 @@ export default function BoxPerfilsAll(props){
                             <img id={style.imgIcon} srcSet={PerT}></img>
                             <h1 id={style.text}>Luiz</h1>
                         </div>
-                        <Button variant="outlined" disabled>Gerenciar perfis</Button>
+                        <div id={style.buttonGer}>
+                        <Button variant="outlined" disabled className="Button">Gerenciar perfis</Button>
+                        </div>
                 
             </div>
 
