@@ -1,26 +1,21 @@
 import React from "react";
 import style from "../boxperfil/boxPerfil.module.css";
 import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 
 import PerO from "../../img/perO.jpg";
 import PerT from "../../img/perT.png";
 import PerTH from "../../img/perTH.jpg";
+import { blueGrey, grey, red } from "@material-ui/core/colors";
 
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
+
 
 
 
 
 export default function BoxPerfilsAll(props){
-    const classes = useStyles()
+
 
     return(
             <div id={style.PerfilAll}>
@@ -31,7 +26,7 @@ export default function BoxPerfilsAll(props){
                             <h1 id={style.text}>Luiz</h1>
                         </div>
                         <div id={style.buttonGer}>
-                        <Button variant="outlined" disabled className="Button">Gerenciar perfis</Button>
+                        <Button sx={{border:"solid 1px #fff", color:"#fff", ":hover":{border:"solid 1px #ccc", color:"#ccc"} }} variant="outlined">Gerenciar perfis</Button>
                         </div>
                 
             </div>
