@@ -1,7 +1,8 @@
 #componentView{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
-    height: 100vh;
 }

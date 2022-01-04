@@ -8,6 +8,7 @@ import style from '../homeContainer/style.container.module.css'
 export default function HomeContainer (props){
     return(
             <div id={style.componentView}>
+                {props.children}
 
             </div>
 
