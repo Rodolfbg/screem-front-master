@@ -9,12 +9,9 @@ function Perfil(){
     return(
          <PerfilFull>
                 <TopBox></TopBox>
-                <BoxPerfilsAll>
-                    
+                    <BoxPerfilsAll>
                 </BoxPerfilsAll>
-                
          </PerfilFull>
-        
     )};
 
 export default Perfil;
