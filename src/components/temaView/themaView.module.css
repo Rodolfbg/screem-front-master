@@ -1,5 +1,17 @@
 #PrimaryView{
     width: 100%;
-    height: 60%;
-    background: url("https://occ-0-3267-3852.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcyzfe1a84-1M0eUKWQELfwkU_Ob0E6VqHYT9KIMaZYh9NHZ4VxS6f3v2VAeqo6-UboptNQm6Pj-mA-74hhoAZwxXLiP.jpg?r=fb8");
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    background: url("https://occ-0-3267-3852.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdpnR5DVBpOABu0RiSX8uoLuqiX21JvVAR24FVoZukrmVa7GadfXB6i2txi_AQTk_Fp2SrbYYM9Pfyl9E-Y9Rg_daoPW.jpg?r=6e4");
 }   
+#infoLogo{
+    width: 30%;
+    height: 45%;
+    z-index: 40;
+}
+
+#discr{
+    width: 100%;
+    height: 100%;
+}

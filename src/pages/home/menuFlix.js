@@ -1,14 +1,15 @@
 import React from "react";
 import HomeContainer from "../../components/homeContainer/homeContainer";
-import PrimaryView from "../../components/temaView/themaView"
+import MovesDefaut from "../../components/temaView/movesDefault"
 
 
-
-export default function home(){
+function home(){
     return(
         <HomeContainer>
-            <PrimaryView>
-            </PrimaryView>
+            <MovesDefaut>
+            </MovesDefaut>
         </HomeContainer>
     )
 };
+
+export default home;
