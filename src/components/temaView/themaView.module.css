@@ -1,15 +1,24 @@
 #PrimaryView{
     width: 100%;
-    height: 70%;
+    height: 80%;
     display: flex;
     justify-content: center;
     background: url("https://occ-0-3267-3852.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdpnR5DVBpOABu0RiSX8uoLuqiX21JvVAR24FVoZukrmVa7GadfXB6i2txi_AQTk_Fp2SrbYYM9Pfyl9E-Y9Rg_daoPW.jpg?r=6e4");
+    
 }   
 #infoLogo{
-    width: 30%;
-    height: 45%;
+    width: 38%;
+    height: 48%;
     z-index: 40;
+    background: url("https://occ-0-3267-3852.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZQ9bfRkkFY9DYBUysZvQiTOx4XJfIZso7qET5iD0gDxQdULJMfFik0eVXya0dHpJ4C6MxMGwIPZl7BX0GXpqS3_Dtcf8xApNLZt.png?r=0d5");
+    background-size: cover;
+    display: flex;
+    right: 380px;
+    position: relative;
+
 }
+
+
 
 #discr{
     width: 100%;
